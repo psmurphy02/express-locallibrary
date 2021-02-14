@@ -1,0 +1,4 @@
+To run (each in a different shell):
+    DEBUG=express-locallibrary-tutorial:* npm run devstart
+    node populatedb 'mongodb+srv://EXPuser:LetsDoThis@cluster0.igmdz.mongodb.net/local_library?retryWrites=true&w=majority'
+    

@@ -1,4 +1,4 @@
-var asynch = require('async');
+var async = require('async');
 var Author = require('../models/author');
 var Book = require('../models/book');
 
@@ -17,7 +17,7 @@ exports.author_list = function (req, res, next) {
 // Display detail page for a specific Author
 exports.author_detail = function (req, res, next) {
     
-    asynch.parallel({
+    async.parallel({
         author: function(callback) {
             Author.findById(req.params.id)
                 .exec(callback)

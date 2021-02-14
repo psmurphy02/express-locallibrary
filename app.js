@@ -46,3 +46,14 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+
+// express express-locallibrary-tutorial --view=pug
+  // creates the project's files
+
+// cd express-locallibrary-tutorial
+// npm install
+// DEBUG=express-locallibrary-tutorial:* npm start (actually npm run <scriptname>)
+  // to run the app
+  // could also just use npm start, but above shows console logging/debugging
+
